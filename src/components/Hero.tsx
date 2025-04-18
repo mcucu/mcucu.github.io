@@ -11,20 +11,19 @@ const Hero = () => {
             <img
               src="profile.png?q=80&w=250&auto=format&fit=crop"
               alt="Profile"
-              // className="aspect-square h-full w-full"
-              className="aspect-square"
+              className="aspect-square h-full w-full"
             />
           </Avatar>
           <h1 className="text-4xl md:text-5xl font-bold text-resume-primary mb-4">
-            John Doe
+            Muhamad Cucu Nurfalah
           </h1>
           <h2 className="text-xl md:text-2xl text-resume-secondary mb-6">
-            Senior Software Engineer
+            Software Engineer
           </h2>
           <p className="max-w-2xl text-resume-text leading-relaxed mb-8">
-            Passionate software engineer with 5+ years of experience in building scalable web applications. 
-            Specialized in React, TypeScript, and cloud architecture. Committed to creating efficient and 
-            user-friendly solutions.
+            Innovative and results-driven Senior Software Engineer with over 10 years of experience designing and building complex systems in fintech, digital banking, and public sector domains.
+            Specializes in Golang-based backend architecture, cloud-native services, and DevOps integration. Proven track record in optimizing performance, mentoring engineering teams, and aligning architecture with strategic goals.
+            Skilled in leading cross-functional teams and implementing scalable, high-performance systems using modern technologies such as Kubernetes, AWS, and Elastic Stack.
           </p>
           <div className="flex gap-4">
             <a href="#contact" className="bg-resume-primary text-white px-6 py-3 rounded-lg hover:bg-resume-secondary transition-colors">

@@ -3,16 +3,28 @@ import React from 'react';
 
 const skillsCategories = [
   {
-    title: "Technical Skills",
-    skills: ["React", "TypeScript", "Node.js", "AWS", "Docker", "GraphQL"]
+    title: "Languages & Frameworks",
+    skills: ["Golang (Primary)", "Node.js", "PHP", "Java", "Python", "GraphQL"]
+  },
+  {
+    title: "Databases",
+    skills: ["PostgreSQL", "MySQL", "Oracle", "MongoDB", "CouchDB"]
+  },
+  {
+    title: "Cloud & DevOps",
+    skills: ["Docker", "AWS", "Kubernetes", "CI/CD", "Firebase"]
+  },
+  {
+    title: "Observability",
+    skills: ["ELK Stack", "Elastic APM", "Jaeger", "Grafana", "Performance Profiling"]
+  },
+  {
+    title: "Architecture",
+    skills: ["Microservices", "Event-driven", "REST APIs", "Serverless"]
   },
   {
     title: "Soft Skills",
-    skills: ["Leadership", "Communication", "Problem Solving", "Team Collaboration", "Agile Methodology"]
-  },
-  {
-    title: "Tools & Platforms",
-    skills: ["Git", "VS Code", "Jira", "Figma", "Jenkins", "MongoDB"]
+    skills: ["Leadership", "Communication", "Problem Solving", "Team Collaboration", "Technical Decision Making", "Agile Methodology", "Architecture Reviews"]
   }
 ];
 

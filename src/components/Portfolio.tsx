@@ -4,22 +4,22 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Built a full-stack e-commerce platform using React, Node.js, and MongoDB",
-    link: "#",
-    tech: ["React", "Node.js", "MongoDB"]
+    title: "Estuari - Loan Origination System",
+    description: "Built scalable credit application pipeline integrated with scoring, SLIK, survey, and approval logic.",
+    link: "https://estuari.efishery.com/",
+    tech: ["Next.js", "Golang", "PostgreSQL", "RabbitMQ", "Jaeger"]
   },
   {
-    title: "Task Management App",
-    description: "Developed a real-time task management application with collaborative features",
+    title: "Finadvisor & Halofina (Technical Lead)",
+    description: "Led full engineering effort and sprint lifecycle for a modern financial advisor platform.",
     link: "#",
-    tech: ["TypeScript", "Socket.io", "Redis"]
+    tech: ["Vue js", "Quasar", "PHP", "MySQL"]
   },
   {
-    title: "Analytics Dashboard",
-    description: "Created a responsive analytics dashboard with data visualization",
+    title: "Smartgov & Tanijoy",
+    description: "Developed APIs and systems for government taxation and agriculture financing.",
     link: "#",
-    tech: ["React", "D3.js", "AWS"]
+    tech: ["PHP", "Lumen", "MySQL"]
   }
 ];
 
