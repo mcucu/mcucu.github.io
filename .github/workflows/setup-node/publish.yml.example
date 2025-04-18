@@ -1,8 +1,11 @@
 name: publish-to-github-pages
 on:
+  # Runs on pushes targeting the default branch
   push:
-    branches:
-      - master
+    branches: ['main']
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,7 +14,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -35,7 +38,7 @@ jobs:
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./dist
 
   deploy:
     environment:
